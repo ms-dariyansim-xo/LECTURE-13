@@ -13,9 +13,6 @@
 
 <!--FORM-->
 <!--Table samples added in-->
-
-
-
 <form>
     <table>
         <tr>
@@ -39,16 +36,42 @@
         </tr>
 
         <tr>
+            <td><label for="password">Password:</label></td>
+            <td><input name="password" type="password"></td>
+        </tr>
+
+        <tr>
+            <td><label for="passwordrange">PW Range:</label></td>
+            <td><input name="passwordrange" type="range"></td>
+        </tr>
+
+        <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input name="email" type="email" required></td>
+        </tr>
+        <!--checkboxes-->
+        <tr>
+            <td><label for="checkbox">Checkbox sample:</label></td>
+            <td><input name="check1" type="checkbox">
+                <input name="check2" type="checkbox">
+                <input name="check3" type="checkbox">
+            </td>
+        </tr>
+        <!--radiobuttons: only ONE can be selected, name should be the SAME.-->
+        <tr>
+            <td><label for="radiobutton">Radiobutton sample:</label></td>
+            <td><input name="radio1" type="radio">
+                <input name="radio1" type="radio">
+                <input name="radio1" type="radio">
+            </td>
+        </tr>
+ 
+        <tr>
             <td></td>
             <!--"submit" is automade for button that submits-->
             <td><input type="submit"></td>
         </tr> 
     </table>
-
-    
-    
-    
-
 
 </form>
 
