@@ -49,6 +49,8 @@
             <td><label for="email">Email:</label></td>
             <td><input name="email" type="email" required></td>
         </tr>
+
+
         <!--checkboxes-->
         <tr>
             <td><label for="checkbox">Checkbox sample:</label></td>
@@ -67,12 +69,33 @@
                 <input name="radio1" type="radio">
             </td>
         </tr>
+        <!--"select" in the table-->
+        <tr>
+            <td><label for="cars">Cars:</label></td>
+            <td>
+                <select>
+                    <optgroup label="Make">
+                    <option value="MERC-BENZ">MERC BENZ</option>
+                    <option value="MERC-BENZ">ACURA</option>
+                    <option value="MERC-BENZ">BMW</option>
+                    </optgroup>
+                    <optgroup label="Model">
+                        <option value="MERC-BENZ">G-WAGON</option>
+                    <option value="MERC-BENZ">5 SERIES</option>
+                    </optgroup>
+                </select>
+            </td>
+        </tr>
  
         <tr>
             <td></td>
             <!--"submit" is automade for button that submits-->
             <td><input type="submit"></td>
         </tr> 
+
+        
+
+
     </table>
 
 </form>
